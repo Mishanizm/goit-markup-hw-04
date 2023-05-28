@@ -308,6 +308,7 @@ img {
 .soc-icon {
   width: 16px;
   height: 16px;
+  fill: #f4f4fd;
 }
 
 .team-soc-link {
@@ -429,6 +430,7 @@ img {
 .footer-icon {
   width: 24px;
   height: 24px;
+  fill: #f4f4fd;
 }
 .footer-soc-icon {
   width: 40px;
