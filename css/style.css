@@ -191,7 +191,6 @@ img {
 }
 
 .strategy-items {
-  /* width: calc((100% - 72px) / 4); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -300,22 +299,15 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.team-soc-list :hover,
-:focus {
-  background-color: #404bbf;
-  border-radius: 50%;
-}
-.team-soc-list:focus {
-  background-color: #404bbf;
-}
+
 .team-soc-icon {
   width: 40px;
   height: 40px;
 }
+
 .soc-icon {
   width: 16px;
   height: 16px;
-  fill: #f4f4fd;
 }
 
 .team-soc-link {
@@ -326,6 +318,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.team-soc-link:hover {
+  background-color: #404bbf;
+}
+.team-soc-link:focus {
+  background-color: #404bbf;
 }
 /* -----------section 5---------- */
 .section-five {
@@ -368,10 +366,6 @@ img {
 :focus {
   border-color: #404bbf;
   color: #404bbf;
-}
-.customer-link:hover,
-:focus {
-  fill: #404bbf;
 }
 
 .cust-icon {
@@ -497,6 +491,7 @@ img {
 /* -----------services---------- */
 
 .services {
+  display: block;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -506,7 +501,7 @@ img {
 .servis-portfolio {
   width: calc((100% - 48px) / 3);
 }
-.servis-portfolio :hover,
+.servis-portfolio:hover,
 :focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
