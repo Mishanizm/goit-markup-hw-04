@@ -364,19 +364,15 @@ img {
   color: #8e8f99;
 }
 .customer-link:hover,
-:focus {
+.customer-link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
 
 .cust-icon {
-  width: 104px;
-  height: 56px;
   fill: currentColor;
 }
-.cust-icon:hover {
-  fill: #404bbf;
-}
+
 /* -----------footer---------- */
 
 .footer {
